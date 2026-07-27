@@ -1,8 +1,32 @@
 aid: halogen-capital
 name: Halogen Capital
-description: Halogen Capital is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Halogen Capital is Malaysia's first and only licensed digital asset fund
+  manager, regulated by the Securities Commission Malaysia (License
+  eCMSL/A0388/2023) and headquartered in Kuala Lumpur. The firm gives
+  high-net-worth individuals, family offices, corporates, and institutional
+  investors regulated access to cryptocurrency and traditional assets through
+  unit trust structures, offering Shariah-compliant Bitcoin, Ethereum, and
+  Crypto Titans basket funds alongside a MYR liquid fund, a ringgit income
+  fund, and an enhanced income fund, all secured with multi-signature custody.
+  Backed by Kenanga Investment Bank and 500 Global, Halogen manages roughly
+  RM400 million in assets under management and is expanding into real-world
+  asset (RWA) tokenization. This API Evangelist profile currently tracks the
+  company's public web presence and domain-security posture; no public
+  developer API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/halogen-capital/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://halogen.my/icons/halogen.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fund Management
+- Digital Assets
+- Cryptocurrency
+- Investment
+- Wealth Management
+- Blockchain
+- Shariah Finance
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://halogen.my
+- type: Login
+  url: https://wallet.halogen.my
+- type: Support
+  url: https://halogen.my/contact-us/
+- type: Blog
+  url: https://halogen.my/newsroom/
+- type: TermsOfService
+  url: https://halogen.my/disclaimers/terms-of-use/
+- type: PrivacyPolicy
+  url: https://halogen.my/disclaimers/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/halogen-capital/
+- type: DomainSecurity
+  url: security/halogen-capital-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
