@@ -26,6 +26,39 @@ edges:
     year: '2022'
   detected_by: sweep-accelerator-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Securities Commission Malaysia regulated fintech players (licensed / recognised / registered)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.sc.com.my/development/digital/digital-initiatives
+  category: Malaysian capital markets licensing (SC CMSL digital investment manager / recognised market operator
+    / registered custodian)
+  contract_reference:
+    register: Securities Commission Malaysia regulated fintech players (licensed / recognised / registered)
+    spec_file: null
+    standard: null
+    role: licensed-participant
+    registrations:
+    - registered_name: Halogen Capital Sdn Bhd
+      register_status: listed
+      register_country: MY
+      register_group: Licensed Fintech Intermediaries
+      licences:
+      - Digital Investment Manager (DIM)
+      role: licensed-participant
+      listed_url: https://halogen.my/
+      matched_domain: halogen.my
+      matched_by: domain
+      evidence_url: https://www.sc.com.my/development/digital/digital-initiatives
+    signal_note: 'participation only: an SC Malaysia licence / recognition / registration; the register publishes
+      no API conformance'
+    detected_by: sweep-malaysia-sc-capital-markets-licensees.py
+    detected: '2026-10-23'
+  detected_by: sweep-malaysia-sc-capital-markets-licensees.py
+  first_seen: '2026-10-23'
 generated: '2026-10-21'
 method: searched
 source:
@@ -40,3 +73,5 @@ checked:
 - https://www.antler.co/portfolio
 - https://www.techstars.com/portfolio
 - https://www.ycombinator.com/companies
+- https://www.sc.com.my/development/digital/digital-initiatives
+- https://www.sc.com.my/regulation/licensing/licensed-and-registered-persons

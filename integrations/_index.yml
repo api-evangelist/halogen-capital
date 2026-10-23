@@ -31,3 +31,36 @@
     year: '2022'
   status: not-a-workflow
   arazzo: null
+- slug: halogen-capital-securities-commission-malaysia-regulated-fintech-players-licensed-recognised-registered
+  label: Securities Commission Malaysia regulated fintech players (licensed / recognised / registered)
+  partner_name: Securities Commission Malaysia regulated fintech players (licensed / recognised / registered)
+  category: Malaysian capital markets licensing (SC CMSL digital investment manager / recognised market operator
+    / registered custodian)
+  type: register
+  channel: regulator-register
+  evidence: https://www.sc.com.my/development/digital/digital-initiatives
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Securities Commission Malaysia regulated fintech players (licensed / recognised / registered)
+    spec_file: null
+    standard: null
+    role: licensed-participant
+    registrations:
+    - registered_name: Halogen Capital Sdn Bhd
+      register_status: listed
+      register_country: MY
+      register_group: Licensed Fintech Intermediaries
+      licences:
+      - Digital Investment Manager (DIM)
+      role: licensed-participant
+      listed_url: https://halogen.my/
+      matched_domain: halogen.my
+      matched_by: domain
+      evidence_url: https://www.sc.com.my/development/digital/digital-initiatives
+    signal_note: 'participation only: an SC Malaysia licence / recognition / registration; the register publishes
+      no API conformance'
+    detected_by: sweep-malaysia-sc-capital-markets-licensees.py
+    detected: '2026-10-23'
+  status: not-a-workflow
+  arazzo: null
